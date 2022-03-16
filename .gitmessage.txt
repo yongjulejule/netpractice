@@ -1,4 +1,4 @@
-# (gitmoji) <type> : [Cpp**Ex**] <title><issue number(optional)>
+# (gitmoji) <type> : [Netpractice] <title><issue number(optional)>
 
 ##### 제목은 이슈 번호와 함께 최대 50 글자까지 한 줄로 입력 ############## -> |
 
