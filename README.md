@@ -18,37 +18,6 @@ This project is a general practical exercise to let you discover networking
 </details>
 <details>
 <summary> Lv. 2 </summary>
-<h3>A1</h3>
-
-IP : ~.~.~.[11000001 ~ 11011110]
-
-<span style="color: #808080">
-SM : ~.~.~.11100000
-</span>
-
-<h3>B1</h3>
-<span style="color: #808080">
-IP : ~.~.~.11011110
-</span>
-
-SM : ~.~.~.11100000
-
-<h3>C1</h3>
-
-IP : ~.~.~.\*\*\*\*\*\*[01 ~ 10]
-
-<span style="color: #808080">
-SM : ~.~.~.11111100
-</span>
-
-<h3>D1</h3>
-
-IP : ~.~.~.\*\*\*\*\*\*[01 ~ 10]
-
-<span style="color: #808080">
-SM : ~.~.~.11111100
-</span>
-
 </details>
 <details>
 <summary> Lv. 3 </summary>
@@ -73,6 +42,26 @@ SM : ~.~.~.11111100
 </details>
 <details>
 <summary> Lv. 10 </summary>
+</details>
+
+## ㅇ ㅓ...
+
+<details>
+<summary> network 관련 command...? </summary>
+
+`traceroute` 명령어로 라우팅 되는 과정 볼 수 있음 (8.8.8.8 = google)
+![img](asset/img.png)
+
+`nslookup` 명령어로 특정 도메인의 ip or 그 반대를 알 수 있음
+
+`net-server` 서버를 열어줌...?
+
+`nettop` 소켓과 라우터들의 리스트를 보여줌
+
+`netbios` 넷 바이오스...?
+
+`networksetup` 컴퓨터에 연결된 네트워크 정보들
+
 </details>
 
 # Reference
