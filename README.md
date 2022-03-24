@@ -4,7 +4,7 @@ This project is a general practical exercise to let you discover networking
 
 ## Topic
 
-- IP
+- IP [- reserved ip...](https://en.wikipedia.org/wiki/Reserved_IP_addresses)
   - subnet mask
     - 같아야함 ㅎ
 - TCP
@@ -36,6 +36,9 @@ This project is a general practical exercise to let you discover networking
 </details>
 <details>
 <summary> Lv. 8 </summary>
+기본적으로 각 대역폭당 독립적인 ip 영역을 가지고 있으면 됨.
+하지만 인터넷과 통신하므로, private ip를 갖고 있으면 요청을 보낼 순 있지만 받을 순 없음.
+따라서 범위를 잘 지정해서 넣어야함.
 </details>
 <details>
 <summary> Lv. 9 </summary>
@@ -61,6 +64,15 @@ This project is a general practical exercise to let you discover networking
 `netbios` 넷 바이오스...?
 
 `networksetup` 컴퓨터에 연결된 네트워크 정보들
+
+`netstat` network status
+
+`netstat -rn` route table
+
+`lsof -i -n` 인터넷과 네트워크 파일들의 listening 상태확인
+`lsof -i TCP ` TCP 상태 확인
+
+`nc [HOST] [PORT] ` TCP 연결, UDP 패킷 전송 등등 TCP UDP 관련 많은걸 하게 해줌. 
 
 </details>
 
