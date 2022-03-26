@@ -7,9 +7,6 @@ This project is a general practical exercise to let you discover networking
 - IP [- reserved ip...](https://en.wikipedia.org/wiki/Reserved_IP_addresses)
   - subnet mask
     - 같아야함 ㅎ
-- TCP
-- OSL 7 layer
-- History of Internet, IP, OSL ...
 - SWITCH
 - ROUTER
 
@@ -72,7 +69,7 @@ This project is a general practical exercise to let you discover networking
 `lsof -i -n` 인터넷과 네트워크 파일들의 listening 상태확인
 `lsof -i TCP ` TCP 상태 확인
 
-`nc [HOST] [PORT] ` TCP 연결, UDP 패킷 전송 등등 TCP UDP 관련 많은걸 하게 해줌. 
+`nc [HOST] [PORT] ` TCP 연결, UDP 패킷 전송 등등 TCP UDP 관련 많은걸 하게 해줌.
 
 </details>
 
