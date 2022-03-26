@@ -4,14 +4,6 @@ This project is a general practical exercise to let you discover networking
 
 ## Topic
 
-- IP [- reserved ip...](https://en.wikipedia.org/wiki/Reserved_IP_addresses)
-  - subnet mask
-    - 같아야함 ㅎ
-- TCP
-- OSL 7 layer
-- History of Internet, IP, OSL ...
-- SWITCH
-- ROUTER
 
 <details>
 <summary> Lv. 1 </summary>
@@ -47,10 +39,9 @@ This project is a general practical exercise to let you discover networking
 <summary> Lv. 10 </summary>
 </details>
 
-## ㅇ ㅓ...
 
 <details>
-<summary> network 관련 command...? </summary>
+<summary> network 관련  </summary>
 
 `traceroute` 명령어로 라우팅 되는 과정 볼 수 있음 (8.8.8.8 = google)
 ![img](asset/img.png)
@@ -69,10 +60,14 @@ This project is a general practical exercise to let you discover networking
 
 `netstat -rn` route table
 
+`netstat -an` 포트 확인
+
 `lsof -i -n` 인터넷과 네트워크 파일들의 listening 상태확인
 `lsof -i TCP ` TCP 상태 확인
 
 `nc [HOST] [PORT] ` TCP 연결, UDP 패킷 전송 등등 TCP UDP 관련 많은걸 하게 해줌. 
+
+`wireshark` 라는 프로그램을 이용하여 패킷 캡쳐 가능. 패킷들의 구조를 알 수 있고, TCP 같은 프로토콜이 어떤식으로 진행되는지 파악하기 쉬움.
 
 </details>
 
