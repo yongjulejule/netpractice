@@ -7,24 +7,36 @@ This project is a general practical exercise to let you discover networking
 
 <details>
 <summary> Lv. 1 </summary>
+서브넷 마스크를 보고 네트워크부 아이피를 계산하여 같은 네트워크 부를 가지는 아이피를 할당해주면 됨.
 </details>
 <details>
 <summary> Lv. 2 </summary>
+Lv.1 과 동일
 </details>
 <details>
 <summary> Lv. 3 </summary>
+스위치가 여러개의 네트워크를 한 네트워크 대역으로 묶어줌. 
+스위치는 2계층 장비로서 MAC 주소를 이용하여 연결된 네트워크를 구분함.(L2 스위치 한정)
+loop가 탐지되는데, 이는 처음 스위치가 작동할때 네트워크 내 장비들의 MAC 주소를 갖고 있지 않아서 일어나는 현상으로 추정
 </details>
 <details>
 <summary> Lv. 4 </summary>
+라우터는 WAN 대역으로 다른 네트워크와 연결해줌. 이때 라우터의 인터페이스 IP는 서로 다른 영역 이여야 함.
 </details>
 <details>
 <summary> Lv. 5 </summary>
+Lv.4 와 동일
 </details>
 <details>
 <summary> Lv. 6 </summary>
+라우팅 테이블은 [SRC] -> [DST] 형태로 구성되며 SRC에 해당하는 IP를 가진 패킷이 오면 DST로 전송됨.
+0.0.0.0/0 or default 는 모든 네트워크를 의미함.
+또한 클라이언트 A에서 인터넷으로 요청을 보낸다면, 패킷은 인터넷의 IP를 갖고 클라이언트 A에서 출발하여 인터넷의 IP까지 찾아감.
+인터넷에서 클라이언트 A로 응답하는 과정도 동일.
 </details>
 <details>
 <summary> Lv. 7 </summary>
+연결된 라우터도 같은 네트워크 대역에 있어야 함. 그러지 않으면 라우팅 테이블이 설정되어 있어도 패킷이 나가는 gateway가 적절하지 않아서 패킷이 사라짐.
 </details>
 <details>
 <summary> Lv. 8 </summary>
@@ -34,9 +46,11 @@ This project is a general practical exercise to let you discover networking
 </details>
 <details>
 <summary> Lv. 9 </summary>
+Lv.1 ~ Lv.8 응용
 </details>
 <details>
 <summary> Lv. 10 </summary>
+Lv.1 ~ Lv.8 응용
 </details>
 
 
@@ -74,3 +88,5 @@ This project is a general practical exercise to let you discover networking
 # Reference
 
 [IBM TCP/IP](https://www.ibm.com/docs/ko/aix/7.1?topic=management-transmission-control-protocolinternet-protocol)
+
+[네트워크 강의](https://www.youtube.com/playlist?list=PL0d8NnikouEWcF1jJueLdjRIC4HsUlULi)
